@@ -1,0 +1,11 @@
+Model Information:
+* title:	Burgh Island Huer's Hut
+* source:	https://sketchfab.com/3d-models/burgh-island-huers-hut-5ec6507b3c5041cc89ea26dc7e654426
+* author:	artfletch (https://sketchfab.com/artfletch)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Burgh Island Huer's Hut" (https://sketchfab.com/3d-models/burgh-island-huers-hut-5ec6507b3c5041cc89ea26dc7e654426) by artfletch (https://sketchfab.com/artfletch) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+            rel="stylesheet">
+    </head>
+    <body>
+        <div class="background"></div>
+        <div id="bubbles"></div>
+        <div class="title">Jungle Odyssey</div>
+        <div class="loading">Carregando Recursos...</div>
+        <progress id="progressBar" value="0" max="100"></progress>
+
+        <script>
+        var progress = 0;
+        var progressBar = document.getElementById('progressBar');
+
+        function updateProgress() {
+            progress += 5;
+            progressBar.value = progress;
+
+            if (progress < 100) {
+                setTimeout(updateProgress, 500);
+            }else{window.location.href = "main.html";}
+        }
+
+        updateProgress();
+    </script>
+    </body>
+</html>

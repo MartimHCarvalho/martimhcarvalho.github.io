@@ -1,0 +1,11 @@
+Model Information:
+* title:	Lush Mountain V1
+* source:	https://sketchfab.com/3d-models/lush-mountain-v1-2eec0a89325049d19afc33dafcd46071
+* author:	JayT3D (https://sketchfab.com/beardyjosh)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Lush Mountain V1" (https://sketchfab.com/3d-models/lush-mountain-v1-2eec0a89325049d19afc33dafcd46071) by JayT3D (https://sketchfab.com/beardyjosh) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

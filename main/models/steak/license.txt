@@ -1,0 +1,11 @@
+Model Information:
+* title:	Steak
+* source:	https://sketchfab.com/3d-models/steak-87c9b9302f2146d489e5248f866582ed
+* author:	Zab (https://sketchfab.com/lixyco)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Steak" (https://sketchfab.com/3d-models/steak-87c9b9302f2146d489e5248f866582ed) by Zab (https://sketchfab.com/lixyco) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

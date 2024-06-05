@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+            rel="stylesheet">
+    </head>
+    <body>
+        <div class="background"></div>
+        <div id="bubbles"></div>
+        <div class="title">Jungle Odyssey</div>
+        <div class="big">Jungle Odyssey</div>
+
+        <div class="menu">
+            <button class="menu-item" id="playButton">PLAY</button>
+            <button class="menu-item" id="configButton">CONFIG</button>
+            <button class="menu-item" id="creditsButon">CREDITS</button>
+        </div>
+
+        <script>
+            document.getElementById('playButton').addEventListener('click', function() {
+                window.location.href = 'loading.html';
+            });
+            document.getElementById('configButton').addEventListener('click', function() {
+                window.location.href = 'config.html';
+            });
+            document.getElementById('creditsButon').addEventListener('click', function() {
+                window.location.href = 'credits.html';
+            });
+        </script>
+    </body>
+</html>

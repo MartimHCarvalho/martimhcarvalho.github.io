@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    color: #fff;
+    font-family: 'Your Custom Font', Arial, sans-serif;
+    overflow: hidden;
+}
+.tenor-gif-embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.5); /* Add a semi-transparent black background */
+    padding: 20px;
+    border-radius: 10px;
+}
+.menu-item {
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    background: #fff; /* Add a white background */
+    color: #000; /* Change text color to black */
+}
+.menu-item:hover {
+    color: #777;
+}

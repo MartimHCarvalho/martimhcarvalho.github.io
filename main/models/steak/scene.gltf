@@ -1,0 +1,249 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 1473,
+      "max": [
+        37.329376220703125,
+        4.753611087799072,
+        29.289514541625977
+      ],
+      "min": [
+        -37.47123718261719,
+        -83.72504425048828,
+        4.266407012939453
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 17676,
+      "componentType": 5126,
+      "count": 1473,
+      "max": [
+        0.9987876415252686,
+        0.9942517876625061,
+        0.9999130368232727
+      ],
+      "min": [
+        -0.9994999170303345,
+        -0.9976763725280762,
+        -0.9998553395271301
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 1473,
+      "max": [
+        0.32739323377609253,
+        0.7565334439277649
+      ],
+      "min": [
+        0.2749503254890442,
+        0.4772642254829407
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 7992,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Zab (https://sketchfab.com/lixyco)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/steak-87c9b9302f2146d489e5248f866582ed",
+      "title": "Steak"
+    },
+    "generator": "Sketchfab-12.66.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 31968,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 11784,
+      "byteOffset": 31968,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 35352,
+      "byteOffset": 43752,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 79104,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/Material_116_baseColor.png"
+    },
+    {
+      "uri": "textures/Material_116_metallicRoughness.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Material_116",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.4017045455,
+        "metallicRoughnessTexture": {
+          "index": 1
+        },
+        "roughnessFactor": 0.5134469696999999
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Steak_Material #116_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        0.006087084300816059,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.3516042287200623e-18,
+        -0.006087084300816059,
+        0.0,
+        0.0,
+        0.006087084300816059,
+        1.3516042287200623e-18,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Steak.fbx"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        4.195372581481903,
+        5.001274444591173e-07,
+        -4.695086782852969e-09,
+        0.0,
+        4.695156438514391e-09,
+        -0.07876411845158347,
+        -4.194633155723505,
+        0.0,
+        -5.001274438052005e-07,
+        4.1946331557234755,
+        -0.07876411845158347,
+        0.0,
+        7.788880348205566,
+        -9.380549430847168,
+        -246.27342224121094,
+        1.0
+      ],
+      "name": "Steak"
+    },
+    {
+      "mesh": 0,
+      "name": "Steak_Material #116_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    }
+  ]
+}

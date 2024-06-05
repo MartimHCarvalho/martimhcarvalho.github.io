@@ -1,0 +1,182 @@
+/* Estilo geral */
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  background-color: #000;
+}
+
+/* Estilo do cabeçalho */
+header {
+  margin-top: 3em;
+  text-align: center;
+  color: white;
+}
+
+header h1 {
+  font-size: 2em;
+  font-weight: 900;
+}
+
+/* Estilo para o container 3D */
+#container3D canvas {
+  width: 100vw !important;
+  height: 100vh !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* Estilo da barra de saúde */
+#healthBar {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  display: flex;
+}
+
+.heart {
+  width: 30px;
+  height: 30px;
+  background: url('heart.png') no-repeat center center;
+  background-size: contain;
+  margin-right: 5px;
+}
+
+/* Estilo do overlay de morte */
+#deathOverlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  text-align: center;
+  font-size: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Estilo de fundo com gradiente */
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, #0072ff, #00c6ff);
+}
+
+/* Estilo dos títulos */
+.title {
+  font-size: 2em;
+  text-align: center;
+  color: #ffffff;
+}
+
+.big {
+  font-size: 6em;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* Estilo do texto de carregamento */
+.loading {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5em;
+  color: #ffffff;
+}
+
+/* Estilo da barra de progresso */
+#progressBar {
+  position: fixed;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  height: 20px;
+  background-color: #ffffff;
+  border: 2px solid #000000;
+}
+
+/* Estilo das bolhas */
+#bubbles {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: transparent;
+}
+
+#bubbles li {
+  position: absolute;
+  list-style: none;
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  bottom: -160px;
+  animation: square 25s infinite;
+  border-radius: 50%;
+}
+
+#bubbles li:nth-child(1) {
+  left: 10%;
+  width: 80px;
+  height: 80px;
+  animation-delay: 2s;
+  animation-duration: 17s;
+}
+
+/* Adicione mais elementos li conforme necessário */
+@keyframes square {
+  0% {
+      transform: translateY(0);
+  }
+  100% {
+      transform: translateY(-700px) rotate(600deg);
+  }
+}
+
+/* Estilo do menu */
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+
+.menu-item {
+  cursor: pointer;
+  padding: 20px 40px;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: transparent;
+  transition: background-color 0.3s, color 0.3s, transform 0.3s;
+  margin: 10px 0;
+  width: 80%;
+  max-width: 400px;
+}
+
+.menu-item:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
